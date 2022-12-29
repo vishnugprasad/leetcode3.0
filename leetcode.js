@@ -278,3 +278,74 @@ var s = "ab0c0ed";
 // }
 
 // subStrn(s)
+
+
+// let m = new Map()
+// // console.log(m);
+// var arr = [1,2,3,4,5]
+// m.set(0,2)
+// m.set("apple", 5)
+// m.set( 1, "car")
+// m.set(0,"replaced")
+// console.log(m);
+// console.log(m.get("apple"));
+// console.log(m.get(05));
+// console.log(m.get(0));
+// console.log(m.size);
+
+// for(i of m.keys()){
+//     console.log(i);
+// }
+
+
+
+// for(i of m.values()){
+//     console.log(i);
+// }
+
+// delete a key
+
+// m.delete(05)
+// console.log(m);
+
+// let m = new Map()
+// m.set(0,10)
+// m.set(1, 100)
+// m.set( 2, 200)
+
+// console.log(m);
+// if(m.has(200)){
+//     console.log("we got the ans");
+// }
+// else {
+//     console.log("not present");
+// }
+
+
+
+
+// two sum
+
+
+// const target = 9;
+// var arr = [6,2,5,7,3];
+
+// var twoSum = function(arr,target){
+//     const m = new Map();
+//     for(i=0;i<arr.length;i++){
+//         const diff = target - arr[i]
+
+//         if(m.has(diff)){
+//             return[m.get(diff), i]
+//         }
+
+//         m.set(arr[i], i)
+//     }
+//     return[]
+// }
+
+
+
+// console.log(twoSum(arr, target));
+
+
